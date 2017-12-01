@@ -1,0 +1,8 @@
+/**
+* name 
+*/
+class Game{
+	constructor(){
+
+	}
+}

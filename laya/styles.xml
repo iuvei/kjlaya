@@ -1,0 +1,10 @@
+<res>
+   <item name="images/loding" type="" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hall/bg_hall.png" type="Image" compress="0" pack="2" quality="80" props="" picType="0"/>
+   <item name="hall/menu_bar1.png" type="Image" compress="0" pack="2" quality="80" props="" picType="0"/>
+   <item name="loding/loding_bg.png" type="Image" compress="0" pack="2" quality="80" props="" picType="0"/>
+   <item name="loding/jzd.png" type="Image" compress="0" pack="2" quality="80" props="" picType="0"/>
+   <item name="loding/logo.png" type="Image" compress="0" pack="2" quality="80" props="" picType="0"/>
+   <item name="loding/qiqilai_loding.jpg" type="Image" compress="0" pack="2" quality="80" props="" picType="0"/>
+   <item name="jion/icon_shuru_box.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+</res>

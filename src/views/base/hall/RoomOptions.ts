@@ -1,0 +1,8 @@
+/**
+* name 
+*/
+class RoomOptions {
+	constructor(){
+
+	}
+}
