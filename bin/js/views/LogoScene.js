@@ -12,7 +12,7 @@ var LogoScene = /** @class */ (function (_super) {
     __extends(LogoScene, _super);
     function LogoScene() {
         var _this = _super.call(this) || this;
-        Laya.loader.load([{ url: "res/atlas/loding.json", type: Loader.ATLAS }, { url: "loding/loding_bg.png", type: Loader.IMAGE }], Handler.create(_this, _this.onLoaded));
+        Laya.loader.load([{ url: "res/atlas/loding.json", type: Loader.ATLAS }, { url: "res/atlas/comp.json", type: Loader.ATLAS }, { url: "loding/loding_bg.png", type: Loader.IMAGE }], Handler.create(_this, _this.onLoaded));
         return _this;
     }
     LogoScene.prototype.onLoaded = function () {

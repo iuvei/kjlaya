@@ -39,7 +39,7 @@ class Main {
 		//实例UI界面 
 		Laya.loader.load([{ url: "res/atlas/loding.json", type: Loader.ATLAS },{url: "loding/loding_bg.png", type: Loader.IMAGE}], Handler.create(this, this.onLoaded));  
 	}
-
+	
 	onLoaded() : void {  
 		//实例UI界面
 		var logoScene:LogoScene =  new LogoScene(); 
@@ -48,5 +48,4 @@ class Main {
 	
 }
 
-new Main();
- 
+new Main(); 

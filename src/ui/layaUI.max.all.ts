@@ -26,7 +26,7 @@ module ui.test {
 module ui.views.game.base.hall {
     export class CreateRoomUI extends View {
 
-        public static  uiView:any ={"type":"View","props":{"width":1280,"height":720},"child":[{"type":"Image","props":{"skin":"创建房间和帮助/创建房间背景.png","centerY":0.5,"centerX":0.5}},{"type":"Image","props":{"y":18,"x":37,"skin":"创建房间和帮助/标题_创建房间.png"}},{"type":"Button","props":{"y":5,"x":1212,"stateNum":1,"skin":"通用/btn_关闭.png"}},{"type":"Image","props":{"y":625,"x":387,"skin":"创建房间和帮助/创建房间_开关按钮_off.png"}},{"type":"Image","props":{"y":576,"x":280,"width":960,"skin":"创建房间和帮助/分割线.png"}},{"type":"Button","props":{"y":609,"x":946,"stateNum":1,"skin":"创建房间和帮助/btn_创建房间.png"}},{"type":"Button","props":{"y":610,"x":602,"stateNum":1,"skin":"创建房间和帮助/btn_代开房.png"}},{"type":"Button","props":{"y":635,"x":17,"stateNum":1,"skin":"创建房间和帮助/btn_更多玩法.png"}}]};
+        public static  uiView:any ={"type":"View","props":{"width":1280,"height":720},"child":[{"type":"Image","props":{"skin":"创建房间和帮助/创建房间背景.png","centerY":0.5,"centerX":0.5}},{"type":"Image","props":{"y":18,"x":37,"skin":"创建房间和帮助/标题_创建房间.png"}},{"type":"Button","props":{"y":5,"x":1212,"stateNum":1,"skin":"通用/btn_关闭.png"}},{"type":"Image","props":{"y":625,"x":387,"skin":"创建房间和帮助/创建房间_开关按钮_off.png"}},{"type":"Image","props":{"y":576,"x":280,"width":960,"skin":"创建房间和帮助/分割线.png"}},{"type":"Button","props":{"y":609,"x":946,"stateNum":1,"skin":"创建房间和帮助/btn_创建房间.png"}},{"type":"Button","props":{"y":610,"x":602,"stateNum":1,"skin":"创建房间和帮助/btn_代开房.png"}},{"type":"Button","props":{"y":635,"x":17,"stateNum":1,"skin":"创建房间和帮助/btn_更多玩法.png"}},{"type":"Panel","props":{"y":89,"x":20,"width":209,"height":534},"child":[{"type":"CheckBox","props":{"y":0,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_100张_xz.png"}},{"type":"CheckBox","props":{"y":84,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_三人推倒胡_xz.png"}},{"type":"CheckBox","props":{"y":167,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_二人推倒胡_xz.png"}},{"type":"CheckBox","props":{"y":251,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_做牌推倒胡_xz.png"}},{"type":"CheckBox","props":{"y":334,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_惠州庄补花_xz.png"}},{"type":"CheckBox","props":{"y":418,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_推倒胡_xz.png"}},{"type":"CheckBox","props":{"y":501,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_揭阳麻将_xz.png"}},{"type":"CheckBox","props":{"y":585,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_梅州红中王_xz.png"}},{"type":"CheckBox","props":{"y":669,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_潮汕麻将_xz.png"}},{"type":"CheckBox","props":{"y":752,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_百搭鸡胡_xz.png"}},{"type":"CheckBox","props":{"y":836,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_饶平麻将_xz.png"}},{"type":"CheckBox","props":{"y":919,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_鸡平胡_xz.png"}},{"type":"CheckBox","props":{"y":1003,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_鸡胡补花_xz.png"}}]}]};
         constructor(){ super()}
         createChildren():void {
         
@@ -39,25 +39,12 @@ module ui.views.game.base.hall {
 module ui.views.game.base.hall {
     export class RoomOptionsUI extends View {
 
-        public static  uiView:any ={"type":"View","props":{"width":1280,"height":720}};
+        public static  uiView:any ={"type":"View","props":{"width":1280,"height":720},"child":[{"type":"Image","props":{"y":0,"x":0,"skin":"创建房间和帮助/局数.png"}},{"type":"Image","props":{"y":83,"x":0,"skin":"创建房间和帮助/人数.png"}},{"type":"Image","props":{"y":164,"x":0,"skin":"创建房间和帮助/模式.png"}},{"type":"Image","props":{"y":247,"x":0,"skin":"创建房间和帮助/玩法.png"}},{"type":"Image","props":{"y":327,"x":0,"skin":"创建房间和帮助/马牌.png"}},{"type":"Image","props":{"y":408,"x":0,"skin":"创建房间和帮助/鬼牌.png"}},{"type":"Image","props":{"y":490,"x":0,"skin":"创建房间和帮助/封顶.png"}},{"type":"Image","props":{"y":573,"x":0,"skin":"创建房间和帮助/分牌.png"}},{"type":"Radio","props":{"y":0,"x":126,"stateNum":1,"skin":"创建房间和帮助/圆点_未选中.png","labelStrokeColor":"#ffffff","labelStroke":0,"labelSize":32,"labelPadding":"0","labelFont":"Microsoft YaHei","labelAlign":"left","label":"8局"}},{"type":"Radio","props":{"y":0,"x":332,"stateNum":1,"skin":"创建房间和帮助/圆点_未选中.png","labelStrokeColor":"#ffffff","labelStroke":0,"labelSize":32,"labelPadding":"0","labelFont":"Microsoft YaHei","labelAlign":"left","label":"16局"}},{"type":"Radio","props":{"y":83,"x":126,"stateNum":1,"skin":"创建房间和帮助/圆点_未选中.png","labelStrokeColor":"#ffffff","labelStroke":0,"labelSize":32,"labelPadding":"0","labelFont":"Microsoft YaHei","labelAlign":"left","label":"3人"}},{"type":"Radio","props":{"y":83,"x":332,"stateNum":1,"skin":"创建房间和帮助/圆点_未选中.png","labelStrokeColor":"#ffffff","labelStroke":0,"labelSize":32,"labelPadding":"0","labelFont":"Microsoft YaHei","labelAlign":"left","label":"4人"}}]};
         constructor(){ super()}
         createChildren():void {
         
             super.createChildren();
             this.createView(ui.views.game.base.hall.RoomOptionsUI.uiView);
-        }
-    }
-}
-
-module ui.views.game.base.hall {
-    export class RoomSelectUI extends View {
-
-        public static  uiView:any ={"type":"View","props":{"width":1280,"height":720},"child":[{"type":"Panel","props":{"y":0,"x":0,"width":209,"height":627},"child":[{"type":"CheckBox","props":{"y":0,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_100张_xz.png"}},{"type":"CheckBox","props":{"y":84,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_三人推倒胡_xz.png"}},{"type":"CheckBox","props":{"y":167,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_二人推倒胡_xz.png"}},{"type":"CheckBox","props":{"y":251,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_做牌推倒胡_xz.png"}},{"type":"CheckBox","props":{"y":334,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_惠州庄补花_xz.png"}},{"type":"CheckBox","props":{"y":418,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_推倒胡_xz.png"}},{"type":"CheckBox","props":{"y":501,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_揭阳麻将_xz.png"}},{"type":"CheckBox","props":{"y":585,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_梅州红中王_xz.png"}},{"type":"CheckBox","props":{"y":669,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_潮汕麻将_xz.png"}},{"type":"CheckBox","props":{"y":752,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_百搭鸡胡_xz.png"}},{"type":"CheckBox","props":{"y":836,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_饶平麻将_xz.png"}},{"type":"CheckBox","props":{"y":919,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_鸡平胡_xz.png"}},{"type":"CheckBox","props":{"y":1003,"x":0,"stateNum":1,"skin":"创建房间和帮助/btn_鸡胡补花_xz.png"}}]}]};
-        constructor(){ super()}
-        createChildren():void {
-        
-            super.createChildren();
-            this.createView(ui.views.game.base.hall.RoomSelectUI.uiView);
         }
     }
 }
@@ -75,10 +62,68 @@ module ui.views.game.base.room {
     }
 }
 
+module ui.views.game.chenzhou.hall {
+    export class RoomOptionsUI extends View {
+
+        public static  uiView:any ={"type":"View","props":{"width":1280,"height":720}};
+        constructor(){ super()}
+        createChildren():void {
+        
+            super.createChildren();
+            this.createView(ui.views.game.chenzhou.hall.RoomOptionsUI.uiView);
+        }
+    }
+}
+
+module ui.views.game.chenzhou.room {
+    export class RoomSceneUI extends View {
+
+        public static  uiView:any ={"type":"View","props":{"width":1280,"height":720},"child":[{"type":"Image","props":{"y":0,"x":0,"skin":"麻将桌/桌布_绿色.png"}},{"type":"Image","props":{"skin":"麻将桌/底盘.png","centerY":0.5,"centerX":0.5},"child":[{"type":"Image","props":{"y":82,"x":10,"skin":"麻将桌/东家_xz.png"}},{"type":"Image","props":{"y":9,"x":3,"skin":"麻将桌/北家_xz.png"}},{"type":"Image","props":{"y":9,"x":82,"skin":"麻将桌/南家_xz.png"}},{"type":"Image","props":{"y":1,"x":9,"skin":"麻将桌/西家_xz.png"}}]}]};
+        constructor(){ super()}
+        createChildren():void {
+        
+            super.createChildren();
+            this.createView(ui.views.game.chenzhou.room.RoomSceneUI.uiView);
+        }
+    }
+}
+
+module ui.views.game.leiyang.hall {
+    export class RoomOptionsUI extends View {
+
+        public static  uiView:any ={"type":"View","props":{"width":1280,"height":720}};
+        constructor(){ super()}
+        createChildren():void {
+        
+            super.createChildren();
+            this.createView(ui.views.game.leiyang.hall.RoomOptionsUI.uiView);
+        }
+    }
+}
+
+module ui.views.game.leiyang.room {
+    export class RoomSceneUI extends View {
+
+        public static  uiView:any ={"type":"View","props":{"width":1280,"height":720},"child":[{"type":"Image","props":{"y":0,"x":0,"skin":"麻将桌/桌布_绿色.png"}},{"type":"Image","props":{"skin":"麻将桌/底盘.png","centerY":0.5,"centerX":0.5},"child":[{"type":"Image","props":{"y":82,"x":10,"skin":"麻将桌/东家_xz.png"}},{"type":"Image","props":{"y":9,"x":3,"skin":"麻将桌/北家_xz.png"}},{"type":"Image","props":{"y":9,"x":82,"skin":"麻将桌/南家_xz.png"}},{"type":"Image","props":{"y":1,"x":9,"skin":"麻将桌/西家_xz.png"}}]}]};
+        constructor(){ super()}
+        createChildren():void {
+        
+            super.createChildren();
+            this.createView(ui.views.game.leiyang.room.RoomSceneUI.uiView);
+        }
+    }
+}
+
 module ui.views {
     export class HallSceneUI extends View {
+		public btnCreateRoom:Laya.Button;
+		public btnJionRoom:Laya.Button;
+		public btnMyRoom:Laya.Button;
+		public btnGameRoom:Laya.Button;
+		public btnPaiJiu:Laya.Button;
+		public btnBackRoom:Laya.Button;
 
-        public static  uiView:any ={"type":"View","props":{"width":1280,"height":720},"child":[{"type":"Image","props":{"skin":"主界面/主界面_bg.png"}},{"type":"Image","props":{"y":600,"x":0,"skin":"主界面/底下导航底.png"}},{"type":"Button","props":{"y":178,"x":669,"stateNum":1,"skin":"主界面/btn_创建房间.png"}},{"type":"Button","props":{"y":178,"x":938,"stateNum":1,"skin":"主界面/btn_加入房间.png"}},{"type":"Button","props":{"y":380,"x":678,"stateNum":1,"skin":"主界面/btn_我的房间.png"}},{"type":"Button","props":{"y":100,"x":338,"stateNum":1,"skin":"主界面/btn_比赛场.png"}},{"type":"Button","props":{"y":380,"x":942,"stateNum":1,"skin":"主界面/btn_牌九游戏.png"}},{"type":"Image","props":{"y":149,"x":1217,"skin":"主界面/右边菜单_底.png"},"child":[{"type":"Button","props":{"y":88,"x":22,"stateNum":1,"skin":"主界面/btn_菜单.png"}},{"type":"Button","props":{"y":258,"x":20,"stateNum":1,"skin":"主界面/btn_更多游戏.png"}}]},{"type":"Button","props":{"y":177,"x":670,"stateNum":1,"skin":"主界面/btn_返回房间.png"}},{"type":"Image","props":{"y":585,"x":18,"skin":"主界面/icon_免费房卡.png"}},{"type":"Image","props":{"y":585,"x":337,"skin":"主界面/icon_加我.png"}},{"type":"Image","props":{"y":585,"x":178,"skin":"主界面/icon_商城.png"}},{"type":"Image","props":{"y":624,"x":568,"skin":"主界面/icon_活动.png"}},{"type":"Image","props":{"y":624,"x":671,"skin":"主界面/icon_消息.png"}},{"type":"Image","props":{"y":624,"x":774,"skin":"主界面/icon_玩法.png"}},{"type":"Image","props":{"y":624,"x":877,"skin":"主界面/icon_绑定.png"}},{"type":"Image","props":{"y":624,"x":981,"skin":"主界面/icon_设置.png"}},{"type":"Image","props":{"y":624,"x":1084,"skin":"主界面/icon_战绩.png"}},{"type":"Image","props":{"y":624,"x":1187,"skin":"主界面/icon_分享.png"}},{"type":"Image","props":{"y":154,"x":25,"skin":"主界面/公告底.png"},"child":[{"type":"Image","props":{"y":22,"x":34,"skin":"主界面/zi_赛事_xz.png"}},{"type":"Image","props":{"y":21,"x":127,"skin":"主界面/zi_活动_hui.png"}},{"type":"Image","props":{"y":21,"x":217,"skin":"主界面/zi_公告_hui.png"}},{"type":"Image","props":{"y":69,"x":11,"skin":"主界面/公告轮播图1.png"}},{"type":"Image","props":{"y":382,"x":202,"skin":"主界面/dian_hui.png"}},{"type":"Image","props":{"y":382,"x":73,"skin":"主界面/dian_hui.png"}},{"type":"Image","props":{"y":380,"x":136,"skin":"主界面/dian_xz.png"}}]},{"type":"Image","props":{"y":37,"x":549,"skin":"主界面/房卡底.png"},"child":[{"type":"Image","props":{"y":-7,"x":-20,"skin":"主界面/icon_房卡.png"}},{"type":"Button","props":{"y":-7,"x":206,"stateNum":1,"skin":"主界面/btn_购买.png"}}]},{"type":"Image","props":{"y":32,"x":944,"skin":"主界面/房卡底.png"},"child":[{"type":"Image","props":{"y":-7,"x":-20,"skin":"主界面/礼券.png"}},{"type":"Button","props":{"y":-7,"x":206,"stateNum":1,"skin":"主界面/btn_购买.png"}}]},{"type":"Image","props":{"y":21,"x":49,"skin":"主界面/头像信息底.png"}},{"type":"Image","props":{"y":33,"x":61,"skin":"主界面/头像框.png"}}]};
+        public static  uiView:any ={"type":"View","props":{"width":1280,"height":720},"child":[{"type":"Image","props":{"skin":"hall/bg_hall.png"}},{"type":"Image","props":{"y":600,"x":0,"skin":"hall/menu_bar1.png"}},{"type":"Button","props":{"y":178,"x":669,"var":"btnCreateRoom","stateNum":1,"skin":"hall/btn_createroom.png"}},{"type":"Button","props":{"y":178,"x":938,"var":"btnJionRoom","stateNum":1,"skin":"hall/btn_jionroom.png"}},{"type":"Button","props":{"y":380,"x":678,"var":"btnMyRoom","stateNum":1,"skin":"hall/btn_myroom.png"}},{"type":"Button","props":{"y":100,"x":338,"var":"btnGameRoom","stateNum":1,"skin":"hall/btn_gameroom.png"}},{"type":"Button","props":{"y":380,"x":942,"var":"btnPaiJiu","stateNum":1,"skin":"hall/btn_paijiu.png"}},{"type":"Button","props":{"y":177,"x":670,"var":"btnBackRoom","stateNum":1,"skin":"hall/btn_backroom.png"}},{"type":"Image","props":{"y":149,"x":1217,"skin":"hall/menu_bar.png"},"child":[{"type":"Button","props":{"y":88,"x":22,"stateNum":1,"skin":"hall/btn_menu.png"}},{"type":"Button","props":{"y":258,"x":20,"stateNum":1,"skin":"hall/btn_moregame.png"}}]},{"type":"Button","props":{"y":585,"x":18,"stateNum":1,"skin":"hall/btn_freecard.png"}},{"type":"Button","props":{"y":585,"x":337,"stateNum":1,"skin":"hall/btn_addme.png"}},{"type":"Button","props":{"y":585,"x":178,"stateNum":1,"skin":"hall/btn_shop.png"}},{"type":"Button","props":{"y":624,"x":568,"stateNum":1,"skin":"hall/btnActivit.png"}},{"type":"Button","props":{"y":624,"x":671,"stateNum":1,"skin":"hall/btnMessage.png"}},{"type":"Button","props":{"y":624,"x":774,"stateNum":1,"skin":"hall/btnHelp.png"}},{"type":"Button","props":{"y":624,"x":877,"stateNum":1,"skin":"hall/btnBanding.png"}},{"type":"Button","props":{"y":624,"x":981,"stateNum":1,"skin":"hall/btnSetting.png"}},{"type":"Button","props":{"y":624,"x":1084,"stateNum":1,"skin":"hall/btnZhanJi.png"}},{"type":"Button","props":{"y":624,"x":1187,"stateNum":1,"skin":"hall/btnShare.png"}},{"type":"Image","props":{"y":154,"x":25,"skin":"hall/bg_adbox.png"},"child":[{"type":"Image","props":{"y":22,"x":34,"skin":"hall/zi_ss_xz.png"}},{"type":"Image","props":{"y":21,"x":127,"skin":"hall/zi_hd_hui.png"}},{"type":"Image","props":{"y":21,"x":217,"skin":"hall/zi_gg_hui.png"}},{"type":"Image","props":{"y":69,"x":11,"skin":"hall/ad_iamge1.png"}},{"type":"Image","props":{"y":382,"x":202,"skin":"hall/dian_hui.png"}},{"type":"Image","props":{"y":382,"x":73,"skin":"hall/dian_hui.png"}},{"type":"Image","props":{"y":380,"x":136,"skin":"hall/dian_xz.png"}}]},{"type":"Image","props":{"y":37,"x":549,"skin":"hall/box_info.png"},"child":[{"type":"Image","props":{"y":-7,"x":-20,"skin":"hall/icon_fangka.png"}},{"type":"Button","props":{"y":-7,"x":206,"stateNum":1,"skin":"hall/btn_buyadd.png"}}]},{"type":"Image","props":{"y":32,"x":944,"skin":"hall/box_info.png"},"child":[{"type":"Image","props":{"y":-7,"x":-20,"skin":"hall/icon_gift.png"}},{"type":"Button","props":{"y":-7,"x":206,"stateNum":1,"skin":"hall/btn_buyadd.png"}}]},{"type":"Image","props":{"y":21,"x":49,"skin":"hall/box_player.png"},"child":[{"type":"Image","props":{"y":12,"x":12,"skin":"hall/box_head.png"}}]}]};
         constructor(){ super()}
         createChildren():void {
         
@@ -91,7 +136,7 @@ module ui.views {
 module ui.views {
     export class JionRoomUI extends View {
 
-        public static  uiView:any ={"type":"View","props":{"width":1280,"height":720},"child":[{"type":"Image","props":{"skin":"通用/底板_中.png","centerY":0.5,"centerX":0.5}},{"type":"Image","props":{"y":87,"x":427,"skin":"加入房间/标题_加入房间.png","centerX":0.5}},{"type":"Image","props":{"y":156,"skin":"加入房间/加入房间_密码输入底.png","centerX":0.5}},{"type":"Button","props":{"y":255,"x":258,"stateNum":1,"skin":"加入房间/btn_加入房间_1.png"}},{"type":"Button","props":{"y":255,"x":521,"stateNum":1,"skin":"加入房间/btn_加入房间_2.png"}},{"type":"Button","props":{"y":255,"x":784,"stateNum":1,"skin":"加入房间/btn_加入房间_3.png"}},{"type":"Button","props":{"y":350,"x":258,"stateNum":1,"skin":"加入房间/btn_加入房间_4.png"}},{"type":"Button","props":{"y":350,"x":521,"stateNum":1,"skin":"加入房间/btn_加入房间_5.png"}},{"type":"Button","props":{"y":350,"x":784,"stateNum":1,"skin":"加入房间/btn_加入房间_6.png"}},{"type":"Button","props":{"y":446,"x":258,"stateNum":1,"skin":"加入房间/btn_加入房间_7.png"}},{"type":"Button","props":{"y":446,"x":521,"stateNum":1,"skin":"加入房间/btn_加入房间_8.png"}},{"type":"Button","props":{"y":446,"x":784,"stateNum":1,"skin":"加入房间/btn_加入房间_9.png"}},{"type":"Button","props":{"y":541,"x":258,"stateNum":1,"skin":"加入房间/btn_重输.png"}},{"type":"Button","props":{"y":541,"x":521,"stateNum":1,"skin":"加入房间/btn_加入房间_0.png"}},{"type":"Button","props":{"y":541,"x":784,"stateNum":1,"skin":"加入房间/btn_删除.png"}}]};
+        public static  uiView:any ={"type":"View","props":{"width":1280,"height":720},"child":[{"type":"Image","props":{"skin":"通用/底板_中.png","centerY":0.5,"centerX":0.5}},{"type":"Image","props":{"y":87,"x":427,"skin":"jion/jion_title.png","centerX":0.5}},{"type":"Image","props":{"y":156,"skin":"jion/icon_shuru_box.png","centerX":0.5},"child":[{"type":"Image","props":{"y":64,"x":76,"skin":"jion/icon_shuru_line.png"}},{"type":"Image","props":{"y":64,"x":183,"skin":"jion/icon_shuru_line.png"}},{"type":"Image","props":{"y":64,"x":290,"skin":"jion/icon_shuru_line.png"}},{"type":"Image","props":{"y":64,"x":396,"skin":"jion/icon_shuru_line.png"}},{"type":"Image","props":{"y":64,"x":503,"skin":"jion/icon_shuru_line.png"}},{"type":"Image","props":{"y":64,"x":610,"skin":"jion/icon_shuru_line.png"}}]},{"type":"Button","props":{"y":255,"x":258,"stateNum":1,"skin":"jion/btn_1_1.png"}},{"type":"Button","props":{"y":255,"x":521,"stateNum":1,"skin":"jion/btn_1_2.png"}},{"type":"Button","props":{"y":255,"x":784,"stateNum":1,"skin":"jion/btn_1_3.png"}},{"type":"Button","props":{"y":350,"x":258,"stateNum":1,"skin":"jion/btn_1_4.png"}},{"type":"Button","props":{"y":350,"x":521,"stateNum":1,"skin":"jion/btn_1_5.png"}},{"type":"Button","props":{"y":350,"x":784,"stateNum":1,"skin":"jion/btn_1_6.png"}},{"type":"Button","props":{"y":446,"x":258,"stateNum":1,"skin":"jion/btn_1_7.png"}},{"type":"Button","props":{"y":446,"x":521,"stateNum":1,"skin":"jion/btn_1_8.png"}},{"type":"Button","props":{"y":446,"x":784,"stateNum":1,"skin":"jion/btn_1_9.png"}},{"type":"Button","props":{"y":541,"x":258,"stateNum":1,"skin":"jion/btn_1_c.png"}},{"type":"Button","props":{"y":541,"x":521,"stateNum":1,"skin":"jion/btn_1_0.png"}},{"type":"Button","props":{"y":541,"x":784,"stateNum":1,"skin":"jion/btn_1_d.png"}}]};
         constructor(){ super()}
         createChildren():void {
         
@@ -104,8 +149,11 @@ module ui.views {
 module ui.views {
     export class LoginSceneUI extends View {
 		public btnLoginWX:Laya.Button;
+		public btnConect:Laya.Button;
+		public btnSend:Laya.Button;
+		public btnClose:Laya.Button;
 
-        public static  uiView:any ={"type":"View","props":{"width":1280,"height":720},"child":[{"type":"Image","props":{"y":0,"x":0,"skin":"loding/loding_bg.png"}},{"type":"Button","props":{"var":"btnLoginWX","stateNum":1,"skin":"loding/btn_weixindenglv.png","sizeGrid":"0,0,0,0","centerY":144.5,"centerX":4.5}},{"type":"CheckBox","props":{"y":580,"x":541,"stateNum":1,"skin":"loding/loding_gou_box.png"}},{"type":"Image","props":{"y":574,"x":544,"skin":"loding/loding_gou.png"}},{"type":"Label","props":{"y":657,"x":40,"text":"抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防上当受骗。适度游戏益脑，成谜游戏伤身。合理安排游戏，享受健康生活.","fontSize":22,"color":"#ffffff"}}]};
+        public static  uiView:any ={"type":"View","props":{"width":1280,"height":720},"child":[{"type":"Image","props":{"y":0,"x":0,"skin":"loding/loding_bg.png"}},{"type":"Button","props":{"var":"btnLoginWX","stateNum":1,"skin":"loding/btn_weixindenglv.png","sizeGrid":"0,0,0,0","centerY":144.5,"centerX":4.5}},{"type":"CheckBox","props":{"y":580,"x":541,"stateNum":1,"skin":"loding/loding_gou_box.png"}},{"type":"Image","props":{"y":574,"x":544,"skin":"loding/loding_gou.png"}},{"type":"Label","props":{"y":657,"x":40,"text":"抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防上当受骗。适度游戏益脑，成谜游戏伤身。合理安排游戏，享受健康生活.","fontSize":22,"color":"#ffffff"}},{"type":"Button","props":{"y":96,"x":210,"var":"btnConect","skin":"comp/button.png","label":"链接"}},{"type":"Button","props":{"y":142,"x":214,"var":"btnSend","skin":"comp/button.png","label":"发送"}},{"type":"Button","props":{"y":189,"x":214,"var":"btnClose","skin":"comp/button.png","label":"关闭"}}]};
         constructor(){ super()}
         createChildren():void {
         
