@@ -26,14 +26,15 @@ class LoginScene  extends ui.views.LoginSceneUI {
 		this.Protobuf.load("res/protos/awesome.proto", this.onAssetsLoaded);
 	} 	
 
-	private AwesomeMessage:any;
-
+	public awesomeMessage:any;
+	
 	private onAssetsLoaded(err:any, root:any):void
 	{
 		if (err)
 			throw err;
 		// Obtain a message type
-		this.AwesomeMessage = root.lookup("awesomepackage.AwesomeMessage");  
+		this.awesomeMessage = root.lookup("awesomepackage.AwesomeMessage");  
+		console.log("this.awesomeMessage...")  
 	}
 	
 	onOpen():void{
@@ -59,7 +60,7 @@ class LoginScene  extends ui.views.LoginSceneUI {
 	 */
 	onRcvLogin(msgTbl:Laya.Byte):void { 
 		// Decode an Uint8Array (browser) or Buffer (node) to a message
-		var message:any = this.AwesomeMessage.decode(msgTbl.buffer);
+		var message:any = this.awesomeMessage.decode(msgTbl.buffer);
 		// ... do something with message 
 		console.log(message)
 		this.client.push(io.Message.GC_LOGIN_SERVER,new Laya.Byte());
@@ -81,18 +82,18 @@ class LoginScene  extends ui.views.LoginSceneUI {
 	onTeskSend():void{ 
 		
 		// Create a new message
-		var message:any = this.AwesomeMessage.create(
+		var message:any = this.awesomeMessage.create(
 		{
 			awesomeField: "AwesomeString"
 		});
 		
 		// Verify the message if necessary (i.e. when possibly incomplete or invalid)
-		var errMsg:any = this.AwesomeMessage.verify(message);
+		var errMsg:any = this.awesomeMessage.verify(message);
 		if (errMsg)
 			throw Error(errMsg);
 
 		// Encode a message to an Uint8Array (browser) or Buffer (node)
-		var buffer:any = this.AwesomeMessage.encode(message).finish();
+		var buffer:any = this.awesomeMessage.encode(message).finish();
 		var byte:Laya.Byte = new Laya.Byte(buffer);
 		console.log("byte.length="+byte.length);
 		this.client.push(io.Message.CG_LOGIN,byte);
